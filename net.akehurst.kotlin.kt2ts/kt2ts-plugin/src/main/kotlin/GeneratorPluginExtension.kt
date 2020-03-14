@@ -86,12 +86,12 @@ open class GeneratorPluginExtension(project: Project, objects: ObjectFactory) {
     /**
      * name of the kotlin jvm target for this module [default 'jvm']
      */
-    val jvmTargetName = objects.property(String::class.java)
+    var jvmTargetName = objects.property(String::class.java)
 
     /**
      * name of the kotlin js target for this module [default 'js']
      */
-    val jsTargetName = objects.property(String::class.java)
+    var jsTargetName = objects.property(String::class.java)
 
     val declarationsFile = objects.fileProperty()
     val classPatterns = objects.listProperty(String::class.java)
