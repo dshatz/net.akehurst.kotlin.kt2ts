@@ -58,7 +58,7 @@ gradlePlugin {
 
 pluginBundle {
     website = "https://github.com/dhakehurst/net.akehurst.kotlin.kt2ts"
-    vcsUrl = "https://github.com/dhakehurst/net.akehurst.kotlin.kt2ts.git"
+    vcsUrl = "https://github.com/dshatz/net.akehurst.kotlin.kt2ts.git"
 
     (plugins) {
 
